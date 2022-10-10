@@ -1,0 +1,5 @@
+every 10 seconds:
+	loop all players:
+		loop all blocks in radius 15 around loop-player:
+			if loop-block is red concrete:
+				drop 1 sweet berries named "&cCherry" above loop-block's position
